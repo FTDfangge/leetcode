@@ -4,7 +4,7 @@
 # @FileName: 217_contains_duplicate.py
 # @Software: PyCharm
 
-# 96.59% 65.43%
+# AC 96.59% 65.43%
 def containsDuplicate(nums) -> bool:
     length = nums.__len__()
     if length > 1:

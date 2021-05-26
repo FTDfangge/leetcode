@@ -5,6 +5,7 @@
 # @Software: PyCharm
 from _ast import List
 
+# AC
 
 def rotate(nums, k: int):
     length = nums.__len__()

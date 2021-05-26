@@ -5,6 +5,7 @@
 # @Software: PyCharm
 from _ast import List
 
+# AC
 
 def maxProfit(prices) -> int:
     profit = 0

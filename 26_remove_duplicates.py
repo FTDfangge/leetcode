@@ -3,6 +3,9 @@
 # @Author  : qkzhong
 # @FileName: 26_remove_duplicates.py
 # @Software: PyCharm
+
+# AC
+
 from typing import List
 
 
