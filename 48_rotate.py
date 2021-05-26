@@ -32,4 +32,7 @@ def rotate(matrix: List[List[int]]) -> None:
 
 
 if __name__ == '__main__':
-    rotate([[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]])
+    matrix = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
+    for i in range(10):
+        rotate(matrix)
+
