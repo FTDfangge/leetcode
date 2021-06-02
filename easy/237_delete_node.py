@@ -4,17 +4,15 @@
 # @FileName: 237_delete_node.py
 # @Software: PyCharm
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# AC
 import json
+
 
 class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
+
 
 class Solution:
     def deleteNode(self, node):
