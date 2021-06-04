@@ -4,6 +4,9 @@
 # @FileName: 102_level_order.py
 # @Software: PyCharm
 
+
+# AC
+
 from typing import List
 
 
@@ -36,9 +39,9 @@ def generate_levelTree_from_tree(tree: TreeNode, level) -> Level_tree:
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        level_tree = generate_levelTree_from_tree(tree, 0)
+        level_tree = generate_levelTree_from_tree(root, 0)
         if not root:
-            return
+            return []
         queue = [level_tree]
         current_level = -1
         levelOrder_list = []
@@ -47,7 +50,7 @@ class Solution:
             if current_node.level != current_level:
                 levelOrder_list.append([])
                 current_level = current_node.level
-            levelOrder_list[0].append(current_node.val)
+            levelOrder_list[levelOrder_list.__len__()-1].append(current_node.val)
             if current_node.left:
                 queue.append(current_node.left)
             if current_node.right:
@@ -56,6 +59,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    # TODO test this program
     tree = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
     print(Solution().levelOrder(tree))
