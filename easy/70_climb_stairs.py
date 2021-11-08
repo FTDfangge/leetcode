@@ -8,6 +8,9 @@
 
 class Solution:
     def climbStairs(self, n: int) -> int:
+        # f(x) = f(x - 1) + f(x - 2)
+        # f0=1
+        # f1=1
         p = 0
         q = 0
         r = 1
