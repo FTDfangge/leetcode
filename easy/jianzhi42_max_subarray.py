@@ -1,20 +1,16 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2021-11-08 1:59 p.m.
+# @Time    : 2022-03-15 9:15 p.m.
 # @Author  : qkzhong
-# @FileName: 53_maxSubArray.py
+# @FileName: jianzhi42_max_subarray.py
 # @Software: PyCharm
+from math import inf
 
 # AC
-
 from typing import List
 
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # f(x)为代表以第 x 个数结尾的
-        # fx = max(nums[x], fx-1+nums[x])
-        # f0 = 0
-        # f1 = nums[0]
         f = [0] * nums.__len__()
         f[0] = nums[0]
         if nums.__len__() > 1:
