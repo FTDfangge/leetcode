@@ -3,6 +3,8 @@
 # @Author  : qkzhong
 # @FileName: 79_word_search.py
 # @Software: PyCharm
+from typing import List
+
 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
