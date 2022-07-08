@@ -60,3 +60,13 @@ if __name__ == '__main__':
     root.right.left.left = TreeNode('g')
     root.right.left.right = TreeNode('h')
     print(Solution().levelOrder(root))
+
+
+def convert_from_uvd(self, u, v, d):
+    d *= self.pxToMetre
+    x_over_z = (self.cx - u) / self.focalx
+    y_over_z = (self.cy - v) / self.focaly
+    z = d / np.sqrt(1. + x_over_z**2 + y_over_z**2)
+    x = x_over_z * z
+    y = y_over_z * z
+    return x, y, z
