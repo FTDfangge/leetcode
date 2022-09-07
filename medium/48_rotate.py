@@ -9,10 +9,10 @@
 from typing import List
 
 '''
-row, col -> col, n-row-1
-col, n-row-1 -> n-row-1, n-col-1
-n-row-1, n-col-1 -> n-col-1, n-(n-row-1)-1=row
-n-col-1, row -> row, col
+row, col -> col, num-row-1
+col, num-row-1 -> num-row-1, num-col-1
+num-row-1, num-col-1 -> num-col-1, num-(num-row-1)-1=row
+num-col-1, row -> row, col
 '''
 
 

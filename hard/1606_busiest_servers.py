@@ -11,7 +11,7 @@ from typing import List
 
 class Solution:
 
-    # O(n*k) takes too long
+    # O(num*k) takes too long
     def busiestServers(self, k: int, arrival: List[int], load: List[int]) -> List[int]:
         # construct server matrix, which stores the server's latest available time
         servers = [0 for i in range(k)]
