@@ -35,9 +35,51 @@
 #  
 # 
 #  Related Topics 哈希表 字符串 滑动窗口 👍 1135 👎 0
+from typing import List
 
 
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
+        if s.__len__() < p.__len__():
+            return []
+        ans = []
+        p_dict = dict()
+        for i in p:
+            try:
+                p_dict[i] += 1
+            except KeyError:
+                p_dict[i] = 1
+        for i in range(p.__len__()):
+            try:
+                p_dict[s[i]] -= 1
+                if not p_dict[s[i]]:
+                    p_dict.pop(s[i])
+            except KeyError:
+                p_dict[s[i]] = -1
+        if not p_dict:
+            ans.append(0)
+        for starter in range(1, s.__len__() - p.__len__() + 1):
+            try:
+                p_dict[s[starter - 1]] += 1
+                if not p_dict[s[starter - 1]]:
+                    p_dict.pop(s[starter - 1])
+            except KeyError:
+                p_dict[s[starter - 1]] = 1
+
+            try:
+                p_dict[s[starter + p.__len__() - 1]] -= 1
+                if not p_dict[s[starter + p.__len__() - 1]]:
+                    p_dict.pop(s[starter + p.__len__() - 1])
+            except KeyError:
+                p_dict[s[starter + p.__len__() - 1]] = -1
+
+            if not p_dict:
+                ans.append(starter)
+
+        return ans
+
+
 # leetcode submit region end(Prohibit modification and deletion)
+print(Solution().findAnagrams(s="abab", p="ab"))
+print(Solution().findAnagrams(s="cbaebabacd", p="abc"))
