@@ -1,0 +1,67 @@
+class Solution:
+    def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
+        pattern_parts = []
+        temp = ''
+        for letter in pattern:
+            if letter.isupper():
+                if temp:
+                    pattern_parts.append(temp)
+                temp = letter
+            else:
+                temp += letter
+        pattern_parts.append(temp)
+
+        匹配结果 = []
+        for q in queries:
+            pattern_ptr = 0
+            q_ptr = 0
+            while q_ptr < q.__len__():
+                try:
+                    temp_pattern = pattern_parts[pattern_ptr]
+                except IndexError:
+                    while q_ptr < q.__len__():
+                        if q[q_ptr].isupper():
+                            匹配结果.append(False)
+                            break
+                        q_ptr += 1
+                    else:
+                        匹配结果.append(True)
+                    break
+                if q[q_ptr].isupper():
+                    # check Upper is the same first
+                    pattern_ptr += 1
+                    if q[q_ptr] != temp_pattern[0]:
+                        匹配结果.append(False)
+                        break
+                    q_ptr += 1
+                    for i in temp_pattern[1:]:
+                        while q[q_ptr] != i:
+                            q_ptr += 1
+                            if q_ptr >= q.__len__():
+                                匹配结果.append(False)
+                                break
+                            if q[q_ptr].isupper():
+                                匹配结果.append(False)
+                                break
+                        else:
+                            q_ptr += 1
+                            continue
+                        break
+                    else:
+                        continue
+                    break
+                q_ptr += 1
+            else:
+                匹配结果.append(False)
+        return 匹配结果
+
+
+
+# total_testcases:36
+# total_correct:5
+# input_formatted:["IXfGawluvnCa","IsXfGaxwulCa","IXfGawlqtCva","IXjfGawlmeCa","IXfGnaynwlCa","IXfGcamwelCa"]
+"IXfGawlCa"
+# expected_output:[true,true,true,true,true,true]
+# code_output:[false,false,false,false,false,false]
+# last_testcase:["IXfGawluvnCa","IsXfGaxwulCa","IXfGawlqtCva","IXjfGawlmeCa","IXfGnaynwlCa","IXfGcamwelCa"]
+"IXfGawlCa"
