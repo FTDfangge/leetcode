@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1033]Moving Stones Until Consecutive.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1033]Moving Stones Until Consecutive.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1033" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1033]Moving Stones Until Consecutive.py" />
+              <option name="titleSlug" value="moving-stones-until-consecutive" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1039]Minimum Score Triangulation of Polygon.py">
           <value>
             <LeetcodeEditor>
@@ -154,6 +165,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[133]Clone Graph.py" />
               <option name="titleSlug" value="clone-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1376]Time Needed to Inform All Employees.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1376]Time Needed to Inform All Employees.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1376" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1376]Time Needed to Inform All Employees.py" />
+              <option name="titleSlug" value="time-needed-to-inform-all-employees" />
             </LeetcodeEditor>
           </value>
         </entry>
