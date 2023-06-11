@@ -157,6 +157,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1171]Remove Zero Sum Consecutive Nodes from Linked List.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1171]Remove Zero Sum Consecutive Nodes from Linked List.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1171" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1171]Remove Zero Sum Consecutive Nodes from Linked List.py" />
+              <option name="titleSlug" value="remove-zero-sum-consecutive-nodes-from-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1192]查找集群内的关键连接.py">
           <value>
             <LeetcodeEditor>
@@ -187,6 +198,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1376]Time Needed to Inform All Employees.py" />
               <option name="titleSlug" value="time-needed-to-inform-all-employees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1439" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.py" />
+              <option name="titleSlug" value="find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -374,6 +396,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2439]Minimize Maximum of Array.py" />
               <option name="titleSlug" value="minimize-maximum-of-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2465]Number of Distinct Averages.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2465]Number of Distinct Averages.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2465" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2465]Number of Distinct Averages.py" />
+              <option name="titleSlug" value="number-of-distinct-averages" />
             </LeetcodeEditor>
           </value>
         </entry>
