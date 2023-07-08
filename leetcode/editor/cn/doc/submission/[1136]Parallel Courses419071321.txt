@@ -1,0 +1,35 @@
+class Solution:
+    def minimumSemesters(self, n: int, relations: List[List[int]]) -> int:
+        pa = [[] for _ in range(n)]
+        next_study = [i for i in range(n)]
+        not_study = []
+        for pre, to in relations:
+            pa[to - 1].append(pre - 1)
+            try:
+                next_study.remove(to - 1)
+                not_study.append(to - 1)
+            except ValueError:
+                pass
+        num_of_study = 0
+        num_of_semester = 0
+        while True:
+            num_of_semester += 1
+            study = next_study.copy()
+            num_of_study += study.__len__()
+            # print("study: ", study)
+            if num_of_study == n:
+                return num_of_semester
+            if not study:
+                return -1
+            next_study = []
+            for i in study:
+                for j in not_study.copy():
+                    try:
+                        pa[j].remove(i)
+                        if not pa[j]:
+                            next_study.append(j)
+                            not_study.remove(j)
+                    except ValueError:
+                        pass
+# runtime:3648 ms
+# memory:17.4 MB

@@ -146,6 +146,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1136]Parallel Courses.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1136]Parallel Courses.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1136" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1136]Parallel Courses.py" />
+              <option name="titleSlug" value="parallel-courses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1157]Online Majority Element In Subarray.py">
           <value>
             <LeetcodeEditor>
@@ -190,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1375]Number of Times Binary String Is Prefix-Aligned.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1375]Number of Times Binary String Is Prefix-Aligned.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1375" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1375]Number of Times Binary String Is Prefix-Aligned.py" />
+              <option name="titleSlug" value="number-of-times-binary-string-is-prefix-aligned" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1376]Time Needed to Inform All Employees.py">
           <value>
             <LeetcodeEditor>
@@ -209,6 +231,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1439]Find the Kth Smallest Sum of a Matrix With Sorted Rows.py" />
               <option name="titleSlug" value="find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1494]Parallel Courses II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1494]Parallel Courses II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1494" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1494]Parallel Courses II.py" />
+              <option name="titleSlug" value="parallel-courses-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -264,6 +297,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1641]统计字典序元音字符串的数目.py" />
               <option name="titleSlug" value="count-sorted-vowel-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1659]Maximize Grid Happiness.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1659]Maximize Grid Happiness.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1659" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1659]Maximize Grid Happiness.py" />
+              <option name="titleSlug" value="maximize-grid-happiness" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -418,6 +462,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2469]温度转换.py" />
               <option name="titleSlug" value="convert-the-temperature" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2481]Minimum Cuts to Divide a Circle.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2481]Minimum Cuts to Divide a Circle.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2481" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2481]Minimum Cuts to Divide a Circle.py" />
+              <option name="titleSlug" value="minimum-cuts-to-divide-a-circle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2490]Circular Sentence.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2490]Circular Sentence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2490" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2490]Circular Sentence.py" />
+              <option name="titleSlug" value="circular-sentence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2600]K Items With the Maximum Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2600]K Items With the Maximum Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2600" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2600]K Items With the Maximum Sum.py" />
+              <option name="titleSlug" value="k-items-with-the-maximum-sum" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -1,0 +1,27 @@
+class Solution:
+    def kItemsWithMaximumSum(self, numOnes: int, numZeros: int, numNegOnes: int, k: int) -> int:
+        total = 0
+        if numOnes >= k:
+            return k
+        else:
+            total += numOnes
+            k -= numOnes
+
+        if numZeros >= k:
+            return total
+        else:
+            numZeros -= k
+        return total - (numNegOnes - total)
+
+# total_testcases:1310
+# total_correct:967
+# input_formatted:6
+6
+6
+13
+# expected_output:5
+# code_output:6
+# last_testcase:6
+6
+6
+13
