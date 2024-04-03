@@ -1,0 +1,29 @@
+class Solution:
+    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
+        num_dict = dict()
+        ans = set()
+        n = nums.__len__()
+        for i in range(n):
+            for j in range(i + 1, n):
+                for k in range(j + 1, n):
+                    s = nums[i] + nums[j] + nums[k]
+                    if target - s in num_dict and num_dict[target - s] not in (i, j, k):
+                        temp = [nums[i], nums[j], nums[k], target - s]
+                        temp.sort()
+                        ans.add(tuple(temp))
+                    num_dict[nums[i]] = i
+                    num_dict[nums[j]] = j
+                    num_dict[nums[k]] = k
+        ans = list(map(list, ans))
+        return list(ans)
+
+
+
+# total_testcases:293
+# total_correct:289
+# input_formatted:[2,-4,-5,-2,-3,-5,0,4,-2]
+-14
+# expected_output:[[-5,-5,-4,0],[-5,-5,-2,-2],[-5,-4,-3,-2]]
+# code_output:[[-5,-5,-4,0],[-5,-4,-3,-2]]
+# last_testcase:[2,-4,-5,-2,-3,-5,0,4,-2]
+-14
